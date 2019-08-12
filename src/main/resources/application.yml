@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: todos-api
+logging:
+  level:
+    io.todos: INFO
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
